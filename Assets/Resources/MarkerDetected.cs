@@ -34,7 +34,7 @@ public class MarkerDetected : MonoBehaviour, ITrackableEventHandler {
             btnEnabled = false;
             btnGo.SetActive(btnEnabled);
             particlerainButton.SetActive(false);
-            occlusionPlane.transform.position = new Vector3(-0.03f, 0.074f, 0.198f);
+            occlusionPlane.transform.localPosition = new Vector3(-0.03f, 0.481f, 0.198f);
         }
         
         
@@ -47,7 +47,7 @@ public class MarkerDetected : MonoBehaviour, ITrackableEventHandler {
             myBehaviour.RegisterTrackableEventHandler(this);
            
         }
-        occlusionPlane.transform.position = new Vector3(-0.03f, 0.074f, 0.198f);
+        occlusionPlane.transform.localPosition = new Vector3(-0.1959593f, 0.481f, 1.293332f);
         particlerainButton.SetActive(false);
     }
 	
@@ -62,7 +62,7 @@ public class MarkerDetected : MonoBehaviour, ITrackableEventHandler {
     }
     public void onButtonClick() {
         
-        occlusionPlane.transform.position = new Vector3(-0.03f, -0.001f, 0.198f);
+        occlusionPlane.transform.localPosition = new Vector3(-0.1959593f, -0.017f, 1.293332f);
         btnEnabled = false;
         buttonWasClicked = true;
         btnGo.SetActive(btnEnabled);
