@@ -4,7 +4,7 @@ using UnityEngine;
 using Vuforia;
 
 public class particleRain : MonoBehaviour {
-    public ParticleSystem particlerain;
+    public GameObject particlerain;
     private TrackableBehaviour myBehaviour;
   
     // Use this for initialization
@@ -17,6 +17,6 @@ public class particleRain : MonoBehaviour {
 		
 	}
     public void onClick() {
-        particlerain.Play();
+        Instantiate(particlerain, gameObject.transform);
     }
 }
