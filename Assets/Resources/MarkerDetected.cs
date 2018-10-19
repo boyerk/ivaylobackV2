@@ -48,7 +48,8 @@ public class MarkerDetected : MonoBehaviour, ITrackableEventHandler {
            
         }
         occlusionPlane.transform.position = new Vector3(-0.03f, 0.074f, 0.198f);
-	}
+        particlerainButton.SetActive(false);
+    }
 	
 	// Update is called once per frame
 	void Update () {
