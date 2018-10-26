@@ -8473,7 +8473,7 @@ MonoBehaviour:
   mAspectRatio: 0.8016207
   mImageTargetType: 0
   mWidth: 0.1524
-  mHeight: 0.085725
+  mHeight: 0.122167
 --- !u!4 &1192807340
 Transform:
   m_ObjectHideFlags: 0

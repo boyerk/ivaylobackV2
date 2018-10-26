@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="citymarker2" size="0.152400 0.122167" />
     <ImageTarget name="newMarker" size="0.152400 0.153093" />
-    <ImageTarget name="high-sierra-2018-featured-1200x675" size="0.152400 0.085725" />
   </Tracking>
 </QCARConfig>
