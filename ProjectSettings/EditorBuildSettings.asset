@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/ivayloMidtermScene.unity
-    guid: 96f578933c7d0344e9e69aa544d81c89
+    path: Assets/FinalMidtermSceneKaneBoyer.unity
+    guid: 410458e29d0792e47b196978a0a5e493
   m_configObjects: {}
